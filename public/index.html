@@ -68,24 +68,10 @@
 .buttonyes:hover {
   background-color:#0e1259;
 }
-.containeryes { 
-  height: 100px;
-  position: relative;
-}
 
-.centeryes {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
 </style>
 </head>
 <body>
-<div class="containeryes">
-  <div class="centeryes">
     <button class="buttonyes" onclick="clickHandleryes()">Launch Nebula (Cloaked)</button>
 
     <script>
@@ -93,8 +79,5 @@
       var win = window.open(); var url = 'https://nebula-galaxybender.koyeb.app/'; var iframe = win.document.createElement('iframe'); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;"; iframe.src = url; win.document.body.appendChild(iframe);
     }
     </script>
-  </div>
-</div>
-
 </body>
 </html>
