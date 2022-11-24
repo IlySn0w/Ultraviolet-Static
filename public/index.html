@@ -52,10 +52,8 @@
     </form>
     <p id="error"></p>
     <code id="error-code"></code>
-    <html>
-<head>
 <style> 
-.button {
+.buttonyes {
   background-color:#ff00ff;
   border: none;
   color:#040720;
@@ -67,15 +65,15 @@
   transition-duration: 0.4s;
 }
 
-.button:hover {
+.buttonyes:hover {
   background-color:#0e1259;
 }
-.container { 
+.containeryes { 
   height: 100px;
   position: relative;
 }
 
-.center {
+.centeryes {
   margin: 0;
   position: absolute;
   top: 50%;
@@ -86,12 +84,12 @@
 </style>
 </head>
 <body>
-<div class="container">
-  <div class="center">
-    <button class="button" onclick="clickHandler()">Launch Nebula (Cloaked)</button>
+<div class="containeryes">
+  <div class="centeryes">
+    <button class="buttonyes" onclick="clickHandleryes()">Launch Nebula (Cloaked)</button>
 
     <script>
-         function clickHandler() {
+         function clickHandleryes() {
       var win = window.open(); var url = 'https://nebula-galaxybender.koyeb.app/'; var iframe = win.document.createElement('iframe'); iframe.style="position:fixed;width:100vw;height:100vh;top:0px;left:0px;right:0px;bottom:0px;z-index:2147483647;background-color:white;border:none;"; iframe.src = url; win.document.body.appendChild(iframe);
     }
     </script>
@@ -99,5 +97,4 @@
 </div>
 
 </body>
-</html>
 </html>
